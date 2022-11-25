@@ -6,7 +6,7 @@ Este projeto é uma mini-versão de e-commerce
 
 Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
 
-Clone o projeto em uma pasta ou área de trabalho com o comando:
+Clone o projeto em uma pasta ou área de trabalho  via terminal com o comando:
 
 ```
 git clone https://github.com/DayanMonteiro/store-vuejs
