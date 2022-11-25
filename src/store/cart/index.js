@@ -31,7 +31,6 @@ export default {
 
     removeFromCart({ commit, state }, { product, type }) {
       let newCart = [];
-      console.log(product, type);
 
       if (type === "qty") {
         if (product.quantity === 1) {
@@ -59,8 +58,6 @@ export default {
 
     getCart({ commit }) {
       const newCart = JSON.parse(localStorage.getItem("cart"));
-
-      console.log(newCart);
 
       commit("SET_CART", newCart || []);
     },

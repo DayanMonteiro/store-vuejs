@@ -23,7 +23,6 @@
             />
           </div>
 
-
           <div>   
             <label>CPF*</label><br />
             <input
@@ -141,25 +140,16 @@
       </div>
 
       <div class="containerButton">
-
         <button type="submit">
           Concluir compra
         </button>
-        <!-- <button
-          type="submit"
-          @click.prevent="submitForm"
-          :disabled="$v.form.$invalid"
-        >
-          Concluir compra
-        </button> -->
       </div>
     </form>
   </div>
 </template>
 
 <script type="text/javascript">
-import axios from "axios";
-// import { required } from "vuelidate/lib/validators";
+
 import { mask } from "vue-the-mask";
 
 export default {
@@ -186,76 +176,9 @@ export default {
     };
   },
 
-  validations: {
-    // form: {
-    //   name: {
-    //     required,
-    //   },
-    //   email: {
-    //     required,
-    //   },
-    //   cpf: {
-    //     required,
-    //   },
-    //   birthDate: {
-    //     required,
-    //   },
-    //   telephone: {
-    //     required,
-    //   },
-    //   cep: {
-    //     required,
-    //   },
-    //   address: {
-    //     required,
-    //   },
-    //   number: {
-    //     required,
-    //   },
-    //   district: {
-    //     required,
-    //   },
-    //   city: {
-    //     required,
-    //   },
-    //   state: {
-    //     required,
-    //   },
-    // },
-  },
+  validations: {},
 
-  methods: {
-    // submitForm() {
-    //   let contactFormData = new FormData();
-    //   contactFormData.set("name", this.form.name);
-    //   contactFormData.set("email", this.form.email);
-    //   contactFormData.set("cpf", this.form.cpf);
-    //   contactFormData.set("birthDate", this.form.birthDate);
-    //   contactFormData.set("telephone", this.form.telephone);
-    //   contactFormData.set("cep", this.form.cep);
-    //   contactFormData.set("address", this.form.address);
-    //   contactFormData.set("number", this.form.number);
-    //   contactFormData.set("district", this.form.district);
-    //   contactFormData.set("city", this.form.city);
-    //   contactFormData.set("state", this.form.state);
-    //   console.log("submitting data...");
-    //   axios({
-    //     method: "post",
-    //     url: "https://630fc9bf498924524a95b105.mockapi.io/users",
-    //     data: contactFormData,
-    //   })
-    //     .then(function (response) {
-    //       alert("Cadastrado com sucesso!");
-
-    //       console.log(response);
-    //     })
-    //     .catch(function (response) {
-    //       // Handle error.
-
-    //       console.log(response);
-    //     });
-    // },
-  },
+  methods: {},
 };
 </script>
 
@@ -333,6 +256,7 @@ export default {
   height: 2.5rem;
   border-radius: 0.2rem;
   border: 1px solid gray;
+  font-family: 'SoucerSansPro-Regular';
 
   @media only screen and (min-width: 360px) {
     width: 19rem;
@@ -374,6 +298,7 @@ export default {
   height: 2.5rem;
   border-radius: 0.2rem;
   border: 1px solid gray;
+  font-family: 'SoucerSansPro-Regular';
 
   @media only screen and (min-width: 360px) {
     width: 9rem;
@@ -414,11 +339,11 @@ export default {
   height: 2.5rem;
   border-radius: 0.2rem;
   border: 1px solid gray;
+  font-family: 'SoucerSansPro-Regular';
 
   @media only screen and (min-width: 360px) {
     width: 8rem;
   }
-
 
   @media only screen and (min-width: 640px) {
     width: 13rem;
@@ -456,6 +381,7 @@ export default {
   height: 2.5rem;
   border-radius: 0.2rem;
   border: 1px solid gray;
+  font-family: 'SoucerSansPro-Regular';
 
   @media only screen and (min-width: 360px) {
     width: 7rem;

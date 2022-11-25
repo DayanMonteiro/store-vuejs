@@ -52,6 +52,7 @@ export default {
   align-items: center;
   justify-content: center;
   margin-top: 2rem;
+  margin-bottom: 2rem;
   height: 5.5rem;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 

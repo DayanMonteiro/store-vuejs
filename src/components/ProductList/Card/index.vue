@@ -62,7 +62,6 @@ export default {
   width: 19rem;
 }
 
-
 .contentImage {
   background-color: #fff;
   display: flex;
@@ -115,7 +114,7 @@ button {
   background-color: #fff;
   color: #8a2be2;
   width: 100%;
-  height: 4rem;
+  height: 3rem;
   text-transform: uppercase;
   margin-top: 0.1rem;
   border: none;

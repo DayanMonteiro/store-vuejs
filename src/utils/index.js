@@ -1,5 +1,4 @@
 export const filter = (data, filters) => {
-  console.log("filters", filters);
   const fPredicateMap = {
     search: (term) => (v) =>
       !term ||
